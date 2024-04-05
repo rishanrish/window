@@ -1,0 +1,46 @@
+.card:hover{
+    transform: scale(1.10) ;
+}
+.card{
+  transition: all 0.3s;
+}
+.form-control:hover{
+    transform: scale(1.01);
+}
+.form-control{
+  transition: all 0.3s;
+}
+.btn-primary{
+  background-color: #54B4D3;
+  position: relative;
+  overflow: hidden;
+  transition: 0.8s;
+
+}
+.btn-primary:hover{
+ 
+  background-color:   aqua;
+}
+.btn-primary{
+  transition: all 0.3s;
+}
+a:after{
+  content: '';
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 10px;
+  position: absolute;
+  transition: 0.3s;
+}
+a:hover{
+color: #ffff;
+}
+a:hover:after{
+  width: 100%;
+}
+a{
+  position: relative;
+}
+
